@@ -1,0 +1,1 @@
+This is a fork of [IPvFoo](http://ipvfoo.googlecode.com). You can install it from the Chrome Webstore [from here](https://chrome.google.com/webstore/detail/ipvfoo-hyperboria-edition/klnbkhdpiindiigfpbblonnajhcagpmk)
