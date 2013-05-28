@@ -1,0 +1,23 @@
+{
+  "name": "IPvFoo (Hyperboria Edition)",
+  "manifest_version": 2,
+  "version": "1.0.23",
+  "minimum_chrome_version": "23",
+  "description": "Display the server IP address, with a realtime summary of IPv4, IPv6, and HTTPS information across all page elements. Now with support for displaying Hyperboria elements as well",
+  "homepage_url": "https://github.com/thefinn93/ipvfoo/",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "page_action": {
+    "dummy": "http://crbug.com/86449"
+  },
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "webRequest",
+    "<all_urls>"
+  ]
+}
