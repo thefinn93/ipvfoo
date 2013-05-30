@@ -114,7 +114,7 @@ function addrToVersion(addr) {
   if (addr) {
     console.log("Checking " + addr);
     if (addr.match(/^64:ff9b::/)) return "4";  // RFC6052
-    if (addr.match(/fc?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]/)) return "H";
+    if (addr.match(/^fc?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]:?[0-9a-f]?[0-9a-f]?[0-9a-f]?[0-9a-f]/)) return "H";
     if (addr.indexOf(".") >= 0) return "4";
     if (addr.indexOf(":") >= 0) return "6";
   }
